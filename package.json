@@ -1,0 +1,20 @@
+{
+    "name": "shhh",
+    "version": "1.0.0",
+    "description": "A small Among Us Discord Bot that takes care of simultaneously muting/unmuting all Players",
+    "scripts": {
+        "start": "npm run build; node ./build/src/index.js",
+        "build": "tsc -p ."
+    },
+    "author": "Julian Kaindl <kaindl745@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^14.6.0",
+        "@types/ws": "^7.2.6",
+        "typescript": "^3.9.7"
+    },
+    "dependencies": {
+        "discord.js": "^12.3.1",
+        "dotenv": "^8.2.0"
+    }
+}
